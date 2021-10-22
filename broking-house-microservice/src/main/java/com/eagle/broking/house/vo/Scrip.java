@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.eagle.broking.house.vo;
 
 import java.math.BigDecimal;
@@ -7,7 +10,10 @@ import lombok.Data;
 
 
 /**
- * Instantiates a new scrip.
+ * The class Scrip
+ * 
+ * @author Durga Prasad
+ *
  */
 @Data
 public class Scrip {

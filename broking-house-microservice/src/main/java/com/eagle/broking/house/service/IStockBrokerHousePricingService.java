@@ -1,9 +1,15 @@
+/*
+ * 
+ */
 package com.eagle.broking.house.service;
 
 import com.eagle.broking.house.vo.Scrip;
 
 /**
  * The Interface IStockBrokerHousePricingService.
+ * 
+ * @author Durga Prasad
+ * 
  */
 public interface IStockBrokerHousePricingService {
 

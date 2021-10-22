@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.eagle.broking.house.resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,13 +13,17 @@ import com.eagle.broking.house.vo.Scrip;
 
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * The Class StockBrokingHouseResource.
- */
 @RestController
 
 /** The Constant log. */
 @Slf4j
+
+/**
+ * The Class StockBrokingHouseResource.
+ * 
+ * @author Durga Prasad
+ *
+ */
 public class StockBrokingHouseResource {
 	
 	/** The SBH pricing service. */

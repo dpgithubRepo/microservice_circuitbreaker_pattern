@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.eagle.broking.house.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +11,12 @@ import org.springframework.web.client.RestTemplate;
 import com.eagle.broking.house.vo.Scrip;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
-
 /**
- * The Class StockBrokerHousePricingService.
+ * 
+ * @author Durga Prasad
+ *
+ * The StockBrokerHousePricingService class.
+ *
  */
 @Service
 public class StockBrokerHousePricingService implements IStockBrokerHousePricingService {
@@ -76,6 +82,12 @@ public class StockBrokerHousePricingService implements IStockBrokerHousePricingS
 	}
 
 	
+	/**
+	 * Default scrip info un avail.
+	 *
+	 * @param exception the exception
+	 * @return the scrip
+	 */
 	public Scrip defaultScripInfoUnAvail(Exception exception) {
 		Scrip scrip =  new Scrip();
 		scrip.setErrorCode("Fall back method called.....HedgeHog Exchange Service Down");

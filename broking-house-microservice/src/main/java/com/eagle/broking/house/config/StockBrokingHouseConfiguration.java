@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.eagle.broking.house.config;
 
 import org.springframework.context.annotation.Bean;
@@ -5,15 +8,17 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 import lombok.extern.slf4j.Slf4j;
-
-// TODO: Auto-generated Javadoc
-/**
- * The Class StockBrokingHouseConfiguration.
- */
 @Configuration
 
 /** The Constant log. */
 @Slf4j
+
+/**
+ * The Class StockBrokingHouseConfiguration.
+ * 
+ * @author Durga Prasad
+ *
+ */
 public class StockBrokingHouseConfiguration {
 
 	/**

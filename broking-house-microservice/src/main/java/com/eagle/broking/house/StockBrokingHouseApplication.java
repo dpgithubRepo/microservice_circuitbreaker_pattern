@@ -5,12 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import lombok.extern.slf4j.Slf4j;
 
+
 /**
  * The Class StockBrokingHouseApplication.
+ * @author Durga Prasad
+ *
  */
-@SpringBootApplication
 
-/** The Constant log. */
+@SpringBootApplication
 @Slf4j
 public class StockBrokingHouseApplication {
 

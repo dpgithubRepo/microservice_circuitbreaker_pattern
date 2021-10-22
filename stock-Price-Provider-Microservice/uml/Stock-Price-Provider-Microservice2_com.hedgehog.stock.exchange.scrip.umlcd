@@ -3,7 +3,7 @@
   <modelElement href="Stock-Price-Provider-Microservice2.uml#_V-aRVDMZEeykDvM6y6Aaxw"/>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Wzmz8DMZEeykDvM6y6Aaxw" name="Scrip">
     <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_WsgDMZEeykDvM6y6Aaxw"/>
-    <visualProperties xmi:id="_Wzmz8TMZEeykDvM6y6Aaxw" position="50.0,50.0"/>
+    <visualProperties xmi:id="_Wzmz8TMZEeykDvM6y6Aaxw" position="50.0,50.0" size="230.0,223.0"/>
     <stereotypes xmi:id="_Wzmz8jMZEeykDvM6y6Aaxw" name="LegacyStyledElement">
       <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_XTkDMZEeykDvM6y6Aaxw"/>
     </stereotypes>

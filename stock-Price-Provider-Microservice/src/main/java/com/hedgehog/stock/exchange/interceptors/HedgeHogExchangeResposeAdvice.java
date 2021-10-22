@@ -15,7 +15,8 @@ import com.hedgehog.stock.exchange.scrip.Scrip;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * The Class HedgeHogExchangeResposeAdvice.
+ * The Class HedgeHogExchangeResposeAdvice, the beforeBodyWrite method is overridden to bring some dynamic nature to the response
+ *  instead of seeing same static response for all the requests.
  * 
  *  @author Durga Prasad
  *  

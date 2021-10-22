@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WI7fQDMZEeykDvM6y6Aaxw">
+  <modelElement href="Stock-Price-Provider-Microservice2.uml#_VtBmYDMZEeykDvM6y6Aaxw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_WP30wDMZEeykDvM6y6Aaxw" name="com">
+    <modelElement href="Stock-Price-Provider-Microservice2.uml#_V-Wm8DMZEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="_WP30wTMZEeykDvM6y6Aaxw" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_WP97YDMZEeykDvM6y6Aaxw" name="org">
+    <modelElement href="Stock-Price-Provider-Microservice2.uml#_V-XOAjMZEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="_WP97YTMZEeykDvM6y6Aaxw" position="-115.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_WP-icDMZEeykDvM6y6Aaxw" name="java">
+    <modelElement href="Stock-Price-Provider-Microservice2.uml#_V-ZDMDMZEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="_WP-icTMZEeykDvM6y6Aaxw" position="200.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_WP_wkDMZEeykDvM6y6Aaxw" name="lombok">
+    <modelElement href="Stock-Price-Provider-Microservice2.uml#_V-nssDMZEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="_WP_wkTMZEeykDvM6y6Aaxw" position="350.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

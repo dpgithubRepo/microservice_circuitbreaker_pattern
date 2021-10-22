@@ -1,0 +1,20 @@
+server:
+   port: 9002
+   
+hedgehog:
+   scripInfoUrl: http://localhost:9001/enquire/
+   laggingScripInfoUrl: http://localhost:9001/enquire/circuitBrkr/
+   hedgeHogStockInvalidExchangeUrl: http://localhost:9001/enquire/invalid
+   
+resilience4j.circuitbreaker:
+    instances:
+        scripInfoBreaker:
+            registerHealthIndicator: true
+            slidingWindowSize: 3
+            permittedNumberOfCallsInHalfOpenState: 3
+            slidingWindowType: TIME_BASED
+            minimumNumberOfCalls: 1
+            waitDurationInOpenState: 2s
+            failureRateThreshold: 50
+            eventConsumerBufferSize: 10
+            slowCallDurationThreshold: 1s

@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-dBDkDMYEeykDvM6y6Aaxw">
+  <modelElement href="Stock-Price-Provider-Microservice.uml#__LU7EDMYEeykDvM6y6Aaxw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__4yeADMYEeykDvM6y6Aaxw" targetItem="__406RTMYEeykDvM6y6Aaxw" sourceItem="__4wo0DMYEeykDvM6y6Aaxw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__6twoDMYEeykDvM6y6Aaxw" sourceAnchor="362.0,92.0" targetAnchor="87.0,223.0" target="__8OMgDMYEeykDvM6y6Aaxw" source="__7InYDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__YlT8DMYEeykDvM6y6Aaxw"/>
+    <bendpoints xmi:id="_AOzKQDMZEeykDvM6y6Aaxw" sourceX="544" targetY="147"/>
+    <stereotypes xmi:id="__7GLIDMYEeykDvM6y6Aaxw" name="Reference">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__YmiEDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <nameVisual xmi:id="__7DH0DMYEeykDvM6y6Aaxw" text="">
+      <visualProperties xmi:id="_AO2NkDMZEeykDvM6y6Aaxw" position="-490.6498511162855,0.7210151581142554"/>
+    </nameVisual>
+    <sourceRole xmi:id="__7E9ADMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__YlT8TMYEeykDvM6y6Aaxw"/>
+      <visualProperties xmi:id="_AO0_cTMZEeykDvM6y6Aaxw" position="41.37807695564595,-10.98030884652593"/>
+      <visibility xmi:id="__7IAUDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7HZQDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__7FkEDMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="scrip" navigable="true">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XrVADMYEeykDvM6y6Aaxw"/>
+      <visualProperties xmi:id="_AO20oDMZEeykDvM6y6Aaxw" position="-479.07750839507,136.2436835427983"/>
+      <visibility xmi:id="__7IAUjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__7IAUTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__7hB4DMYEeykDvM6y6Aaxw" targetItem="__7l6YDMYEeykDvM6y6Aaxw" sourceItem="__7ga0DMYEeykDvM6y6Aaxw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__7ho8DMYEeykDvM6y6Aaxw" sourceAnchor="181.0,0.0" targetAnchor="339.0,151.0" dashed="true" superClass="__7l6YDMYEeykDvM6y6Aaxw" subClass="__7InYDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__W7uIDMYEeykDvM6y6Aaxw"/>
+    <bendpoints xmi:id="_AOzxUDMZEeykDvM6y6Aaxw" sourceY="-70" targetX="634"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__8FCkDMYEeykDvM6y6Aaxw" sourceAnchor="0.0,35.0" targetAnchor="169.0,166.0" target="__8kKwDMYEeykDvM6y6Aaxw" source="__8FpoDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__YnJIDMYEeykDvM6y6Aaxw"/>
+    <bendpoints xmi:id="_AO0YYDMZEeykDvM6y6Aaxw" sourceX="-686" targetY="90"/>
+    <stereotypes xmi:id="__8FCkTMYEeykDvM6y6Aaxw" name="Reference">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__YoXQDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <nameVisual xmi:id="__8FCkjMYEeykDvM6y6Aaxw" text="">
+      <visualProperties xmi:id="_AO4p0DMZEeykDvM6y6Aaxw" position="642.0820588826689,-0.4881247776677924"/>
+    </nameVisual>
+    <sourceRole xmi:id="__8FCkzMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__YnJITMYEeykDvM6y6Aaxw"/>
+      <visualProperties xmi:id="_AO4CwDMZEeykDvM6y6Aaxw" position="-59.572982228832416,-11.09566499984038"/>
+      <visibility xmi:id="__8FClDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8FClTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__8FCljMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="scripInfoService" navigable="true">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__Xr8EDMYEeykDvM6y6Aaxw"/>
+      <visualProperties xmi:id="_AO5Q4DMZEeykDvM6y6Aaxw" position="645.2260772808222,79.42723293583975"/>
+      <visibility xmi:id="__8FClzMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8FCmDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__8hHcDMYEeykDvM6y6Aaxw" targetItem="__8kKwDMYEeykDvM6y6Aaxw" sourceItem="__8ggYDMYEeykDvM6y6Aaxw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__8vJ4DMYEeykDvM6y6Aaxw" sourceAnchor="0.0,83.0" targetAnchor="170.0,166.0" target="__7l6YDMYEeykDvM6y6Aaxw" source="__813kDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__Yo-UDMYEeykDvM6y6Aaxw"/>
+    <bendpoints xmi:id="_AO0YYTMZEeykDvM6y6Aaxw" sourceX="-191" targetY="289"/>
+    <stereotypes xmi:id="__8xmIjMYEeykDvM6y6Aaxw" name="Reference">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__YplYDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <nameVisual xmi:id="__8w_EDMYEeykDvM6y6Aaxw" text="">
+      <visualProperties xmi:id="_AO538TMZEeykDvM6y6Aaxw" position="114.30857185883144,-14.680543587128"/>
+    </nameVisual>
+    <sourceRole xmi:id="__8xmIDMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__Yo-UTMYEeykDvM6y6Aaxw"/>
+      <visualProperties xmi:id="_AO538DMZEeykDvM6y6Aaxw" position="-53.353217747617464,-32.775487333319006"/>
+      <visibility xmi:id="__80CYTMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__80CYDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__8xmITMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="scripInfoRepository" navigable="true">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__X4wYDMYEeykDvM6y6Aaxw"/>
+      <visualProperties xmi:id="_AO6fADMZEeykDvM6y6Aaxw" position="54.756549949644295,256.1101287631561"/>
+      <visibility xmi:id="__80CYzMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__80CYjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__8vw8DMYEeykDvM6y6Aaxw" sourceAnchor="0.0,113.0" targetAnchor="139.0,166.0" dashed="true" superClass="__8kKwDMYEeykDvM6y6Aaxw" subClass="__813kDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__XOpETMYEeykDvM6y6Aaxw"/>
+    <bendpoints xmi:id="_AO0_cDMZEeykDvM6y6Aaxw" sourceX="-645" targetY="322"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__4wo0DMYEeykDvM6y6Aaxw" sourceConnectionVisual="__4yeADMYEeykDvM6y6Aaxw" text="The main method.&#xA;&#x9; *&#xA;&#x9; * @param args the arguments" item="__406RTMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__Ya74DMYEeykDvM6y6Aaxw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__7ga0DMYEeykDvM6y6Aaxw" sourceConnectionVisual="__7hB4DMYEeykDvM6y6Aaxw" text="The Interface IScripInfoRepository." item="__7l6YDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__Ybi8DMYEeykDvM6y6Aaxw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__8ggYDMYEeykDvM6y6Aaxw" sourceConnectionVisual="__8hHcDMYEeykDvM6y6Aaxw" text="The Interface IScripInfoService." item="__8kKwDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__YcKAjMYEeykDvM6y6Aaxw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__406QDMYEeykDvM6y6Aaxw" name="StockPriceProviderApp">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__MoioDMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__406QTMYEeykDvM6y6Aaxw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__406QjMYEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__MuCMDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="__406QzMYEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__M0v4DMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="__406RDMYEeykDvM6y6Aaxw" label="+"/>
+    <operations xmi:id="__406RTMYEeykDvM6y6Aaxw" comments="__4wo0DMYEeykDvM6y6Aaxw" targetConnectionVisual="__4yeADMYEeykDvM6y6Aaxw" name="main" staticOperation="true">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__MxFgDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__406RjMYEeykDvM6y6Aaxw" name="StyledElement">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__My6sDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__406RzMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__406SDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__406STMYEeykDvM6y6Aaxw" name="args">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__MxFgTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__406SjMYEeykDvM6y6Aaxw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="__406SzMYEeykDvM6y6Aaxw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__6a1sDMYEeykDvM6y6Aaxw" name="HedgeHogExchangeResposeAdvice">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__M1W8DMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__6a1sTMYEeykDvM6y6Aaxw" position="-433.0,183.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__6a1sjMYEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__M2lEDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="__6a1szMYEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__M4aQDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="__6a1tDMYEeykDvM6y6Aaxw" label="+"/>
+    <operations xmi:id="__6a1tTMYEeykDvM6y6Aaxw" name="supports">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XbdYTMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__6a1tjMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Xd5oDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__6a1tzMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__6a1uDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__6a1uTMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XcEcjMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__6a1ujMYEeykDvM6y6Aaxw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__6a1uzMYEeykDvM6y6Aaxw" name="returnType">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XcEcDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6a1vDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6a1vTMYEeykDvM6y6Aaxw" name="MethodParameter">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WPKkDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__6a1vjMYEeykDvM6y6Aaxw" name="converterType">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XcEcTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6a1vzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6a1wDMYEeykDvM6y6Aaxw" name="Class">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__Xa2UjMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__6a1wTMYEeykDvM6y6Aaxw" name="beforeBodyWrite">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XfHwDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__6a1wjMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XhkADMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__6a1wzMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__6a1xDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__6bcwDMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Xfu0TMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__6bcwTMYEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__6bcwjMYEeykDvM6y6Aaxw" name="body">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XfHwTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6bcwzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6bcxDMYEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__6bcxTMYEeykDvM6y6Aaxw" name="returnType">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XfHwjMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6bcxjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6bcxzMYEeykDvM6y6Aaxw" name="MethodParameter">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WPKkDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__6bcyDMYEeykDvM6y6Aaxw" name="selectedContentType">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XfHwzMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6bcyTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6bcyjMYEeykDvM6y6Aaxw" name="MediaType">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WPxoTMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__6bcyzMYEeykDvM6y6Aaxw" name="selectedConverterType">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XfHxDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6bczDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6bczTMYEeykDvM6y6Aaxw" name="Class">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__Xa2UjMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__6bczjMYEeykDvM6y6Aaxw" name="request">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XfHxTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6bczzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6bc0DMYEeykDvM6y6Aaxw" name="ServerHttpRequest">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WSN4TMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__6bc0TMYEeykDvM6y6Aaxw" name="response">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Xfu0DMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__6bc0jMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__6bc0zMYEeykDvM6y6Aaxw" name="ServerHttpResponse">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WUDEDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__7InYDMYEeykDvM6y6Aaxw" name="ScripInfoRepository" associationsOut="__6twoDMYEeykDvM6y6Aaxw" generalizations="__7ho8DMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__NOYgDMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__7InYTMYEeykDvM6y6Aaxw" position="-49.0,358.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__7InYjMYEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NPmoDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="__7InYzMYEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NgsYDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="__7InZDMYEeykDvM6y6Aaxw" label="+"/>
+    <attributes xmi:id="__7InZTMYEeykDvM6y6Aaxw" name="scrip" staticAttribute="true">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XrVADMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__7InZjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__7InZzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__7InaDMYEeykDvM6y6Aaxw" name="Scrip">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__7InaTMYEeykDvM6y6Aaxw" name="_initializer1" staticOperation="true">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NQ0wDMYEeykDvM6y6Aaxw"/>
+      <keywords xmi:id="__7InajMYEeykDvM6y6Aaxw" keyword="init"/>
+      <visibility xmi:id="__7InazMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7InbDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__7InbTMYEeykDvM6y6Aaxw" name="getScripCurrrentPrice">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NSp8DMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__7JOcDMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NT4EDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__7JOcTMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7JOcjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7JOczMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XjZMDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7JOdDMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7JOdTMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NSp8TMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7JOdjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7JOdzMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7JOeDMYEeykDvM6y6Aaxw" name="getScripDayHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NUfIDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__7JOeTMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NVtQDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__7JOejMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7JOezMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7JOfDMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XjZMTMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7JOfTMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7JOfjMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NUfITMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7JOfzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7JOgDMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7JOgTMYEeykDvM6y6Aaxw" name="getScripDayLow">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NW7YDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__7JOgjMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NXicDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__7JOgzMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7JOhDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7JOhTMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XkAQDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7JOhjMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7JOhzMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NW7YTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7JOiDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7JOiTMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7JOijMYEeykDvM6y6Aaxw" name="getScript52WHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NYwkDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__7JOizMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NZXoDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__7JOjDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7JOjTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7JOjjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XkAQTMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7JOjzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7JOkDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NYwkTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7JOkTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7JOkjMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7JOkzMYEeykDvM6y6Aaxw" name="getScript52Low">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NalwDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__7JOlDMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NdpEDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__7JOlTMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7JOljMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7JOlzMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XkAQjMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7JOmDMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7JOmTMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NalwTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7JOmjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7JOmzMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7JOnDMYEeykDvM6y6Aaxw" name="getScripInfo">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NeQIDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__7JOnTMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NfeQDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__7JOnjMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7JOnzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7JOoDMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__W88QDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7JOoTMYEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7JOojMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Ne3MDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7JOozMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7JOpDMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="__7l6YDMYEeykDvM6y6Aaxw" comments="__7ga0DMYEeykDvM6y6Aaxw" targetConnectionVisual="__7hB4DMYEeykDvM6y6Aaxw" name="IScripInfoRepository" associationsIn="__8vJ4DMYEeykDvM6y6Aaxw" subclassedBy="__7ho8DMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__NAWEDMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__7l6YTMYEeykDvM6y6Aaxw" position="-841.0,137.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__7l6YjMYEeykDvM6y6Aaxw" label="+"/>
+    <operations xmi:id="__7l6YzMYEeykDvM6y6Aaxw" name="getScripCurrrentPrice">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NCLQDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__7l6ZDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7l6ZTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7l6ZjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XiLEDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7l6ZzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7l6aDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NCLQTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7l6aTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7l6ajMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7l6azMYEeykDvM6y6Aaxw" name="getScripDayHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NEAcDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__7l6bDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7l6bTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7l6bjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XiLETMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7l6bzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7l6cDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NEngDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7l6cTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7l6cjMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7l6czMYEeykDvM6y6Aaxw" name="getScripDayLow">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NF1oDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__7l6dDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7l6dTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7l6djMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XiyIDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7l6dzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7l6eDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NF1oTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7l6eTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7l6ejMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7l6ezMYEeykDvM6y6Aaxw" name="getScript52WHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NGcsDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__7l6fDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7l6fTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7l6fjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XiyITMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7l6fzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7l6gDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NHDwDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7l6gTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7l6gjMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7l6gzMYEeykDvM6y6Aaxw" name="getScript52Low">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NIR4DMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__7l6hDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7l6hTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7l6hjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XiyIjMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7l6hzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7l6iDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NIR4TMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7l6iTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7l6ijMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__7l6izMYEeykDvM6y6Aaxw" name="getScripInfo">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NJgADMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__7l6jDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__7l6jTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__7l6jjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Wm-ADMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__7l6jzMYEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__7l6kDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NKHEDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__7l6kTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__7l6kjMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__8FpoDMYEeykDvM6y6Aaxw" name="ScripInfoResource" associationsOut="__8FCkDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__NmzADMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__8FpoTMYEeykDvM6y6Aaxw" position="-409.0,355.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__8FpojMYEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NpPQDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="__8FpozMYEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NuHwDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="__8FppDMYEeykDvM6y6Aaxw" label="+"/>
+    <attributes xmi:id="__8FppTMYEeykDvM6y6Aaxw" name="scripInfoService">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__Xr8EDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__8FppjMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XsjIDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__8FppzMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8FpqDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8FpqTMYEeykDvM6y6Aaxw" name="IScripInfoService">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__N4f0DMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__8FpqjMYEeykDvM6y6Aaxw" name="getScripPrice">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__Np2UDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__8FpqzMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Ns5oDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__8FprDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8FprTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__8FprjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XE4ETMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__8FprzMYEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__8FpsDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Np2UTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__8FpsTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__8FpsjMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__8OMgDMYEeykDvM6y6Aaxw" name="Scrip" associationsIn="__6twoDMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__8OMgTMYEeykDvM6y6Aaxw" position="770.0,80.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__8OMgjMYEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NxLEDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="__8OMgzMYEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__NznUDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="__8OMhDMYEeykDvM6y6Aaxw" label="+"/>
+    <attributes xmi:id="__8OMhTMYEeykDvM6y6Aaxw" name="id">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XtKMTMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMhjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMhzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMiDMYEeykDvM6y6Aaxw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMiTMYEeykDvM6y6Aaxw" name="code">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XtxQDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMijMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMizMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMjDMYEeykDvM6y6Aaxw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMjTMYEeykDvM6y6Aaxw" name="name">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XuYUDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMjjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMjzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMkDMYEeykDvM6y6Aaxw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMkTMYEeykDvM6y6Aaxw" name="rate">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XuYUTMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMkjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMkzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMlDMYEeykDvM6y6Aaxw" name="BigDecimal">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMlTMYEeykDvM6y6Aaxw" name="t_low">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__Xu_YDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMljMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMlzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMmDMYEeykDvM6y6Aaxw" name="BigDecimal">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMmTMYEeykDvM6y6Aaxw" name="t_high">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XvmcDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMmjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMmzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMnDMYEeykDvM6y6Aaxw" name="BigDecimal">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMnTMYEeykDvM6y6Aaxw" name="w52_high">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__XwNgDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMnjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMnzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMoDMYEeykDvM6y6Aaxw" name="BigDecimal">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMoTMYEeykDvM6y6Aaxw" name="w52_low">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__Xw0kDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMojMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMozMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMpDMYEeykDvM6y6Aaxw" name="BigDecimal">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__8OMpTMYEeykDvM6y6Aaxw" name="asOfDate">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__Xw0kTMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8OMpjMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__8OMpzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__8OMqDMYEeykDvM6y6Aaxw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="__8kKwDMYEeykDvM6y6Aaxw" comments="__8ggYDMYEeykDvM6y6Aaxw" targetConnectionVisual="__8hHcDMYEeykDvM6y6Aaxw" name="IScripInfoService" associationsIn="__8FCkDMYEeykDvM6y6Aaxw" subclassedBy="__8vw8DMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__N4f0DMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__8kKwTMYEeykDvM6y6Aaxw" position="-1264.0,134.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__8kKwjMYEeykDvM6y6Aaxw" label="+"/>
+    <operations xmi:id="__8kKwzMYEeykDvM6y6Aaxw" name="getScripCurrrentPrice">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__N5t8DMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8kKxDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8kKxTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__8kKxjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XnDkDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__8kKxzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__8kKyDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__N6VADMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__8kKyTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__8kKyjMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__8kKyzMYEeykDvM6y6Aaxw" name="getScripDayHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__N68EDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8kKzDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8kKzTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__8kKzjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XnDkTMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__8kKzzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__8kK0DMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__N7jIDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__8kK0TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__8kK0jMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__8kK0zMYEeykDvM6y6Aaxw" name="getScripDayLow">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__N8KMDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8kK1DMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8kK1TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__8kK1jMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XnDkjMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__8kK1zMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__8kK2DMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__N8KMTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__8kK2TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__8kK2jMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__8kK2zMYEeykDvM6y6Aaxw" name="getScript52WHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__N8xQDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8kK3DMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8kK3TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__8kK3jMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XnqoDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__8kK3zMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__8kK4DMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__N9YUDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__8kK4TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__8kK4jMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__8kK4zMYEeykDvM6y6Aaxw" name="getScript52Low">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__N9_YDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8kK5DMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8kK5TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__8kK5jMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XnqoTMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__8kK5zMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__8kK6DMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__N9_YTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__8kK6TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__8kK6jMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__8kK6zMYEeykDvM6y6Aaxw" name="getScripInfo">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__N-mcDMYEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="__8kK7DMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__8kK7TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__8kK7jMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XMz4DMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__8kK7zMYEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__8kK8DMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__N-mcTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__8kK8TMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__8kK8jMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__813kDMYEeykDvM6y6Aaxw" name="ScripInfoService" associationsOut="__8vJ4DMYEeykDvM6y6Aaxw" generalizations="__8vw8DMYEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__OBCsDMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__813kTMYEeykDvM6y6Aaxw" position="-480.0,509.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__813kjMYEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OCQ0DMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="__813kzMYEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OQTQDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="__813lDMYEeykDvM6y6Aaxw" label="+"/>
+    <attributes xmi:id="__813lTMYEeykDvM6y6Aaxw" name="scripInfoRepository">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__X4wYDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__813ljMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__X6lkDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__813lzMYEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="__813mDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="__813mTMYEeykDvM6y6Aaxw" name="IScripInfoRepository">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__NAWEDMYEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__813mjMYEeykDvM6y6Aaxw" name="getScripCurrrentPrice">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__ODe8DMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__813mzMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OFUIDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__813nDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__813nTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__813njMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XoRsDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__813nzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__813oDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__ODe8TMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__813oTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__813ojMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__813ozMYEeykDvM6y6Aaxw" name="getScripDayHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OF7MDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__813pDMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OHJUDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__813pTMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__813pjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__813pzMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XoRsTMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__813qDMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__813qTMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OF7MTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__813qjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__813qzMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__813rDMYEeykDvM6y6Aaxw" name="getScripDayLow">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OHwYDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__813rTMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OI-gDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__813rjMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__813rzMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__813sDMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Xo4wDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__813sTMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__813sjMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OHwYTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__813szMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__813tDMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__813tTMYEeykDvM6y6Aaxw" name="getScript52WHigh">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OJlkDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__813tjMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OKzsDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__813tzMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__813uDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__813uTMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Xo4wTMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__813ujMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__813uzMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OJlkTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__813vDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__813vTMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__813vjMYEeykDvM6y6Aaxw" name="getScript52Low">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OLawDMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__813vzMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OMo4DMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__813wDMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__813wTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__813wjMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__Xpf0DMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__813wzMYEeykDvM6y6Aaxw" name="BigDecimal">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__WawwDMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__813xDMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OLawTMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__813xTMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__813xjMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__813xzMYEeykDvM6y6Aaxw" name="getScripInfo">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__ONP8DMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__813yDMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OPFIDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__813yTMYEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="__813yjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__813yzMYEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XPQIDMYEeykDvM6y6Aaxw"/>
+        <type xmi:id="__813zDMYEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice.uml#__NwkADMYEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__813zTMYEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OOeEDMYEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="__813zjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="__813zzMYEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__9QuUDMYEeykDvM6y6Aaxw" name="StockPriceProviderMicroserviceApplicationTests">
+    <modelElement href="Stock-Price-Provider-Microservice.uml#__OTWkDMYEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="__9QuUTMYEeykDvM6y6Aaxw" position="-40.0,628.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__9QuUjMYEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OVLwDMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="__9QuUzMYEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OWZ4DMYEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="__9QuVDMYEeykDvM6y6Aaxw" label="~"/>
+    <operations xmi:id="__9QuVTMYEeykDvM6y6Aaxw" name="contextLoads">
+      <modelElement href="Stock-Price-Provider-Microservice.uml#__OVLwTMYEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="__9QuVjMYEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__OVy0DMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="__9QuVzMYEeykDvM6y6Aaxw" label="~"/>
+      <cardinality xmi:id="__9QuWDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

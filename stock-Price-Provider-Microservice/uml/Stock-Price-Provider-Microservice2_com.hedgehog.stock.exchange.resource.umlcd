@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WK84gDMZEeykDvM6y6Aaxw">
+  <modelElement href="Stock-Price-Provider-Microservice2.uml#_V-mekDMZEeykDvM6y6Aaxw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YaFpkDMZEeykDvM6y6Aaxw" source="_YaFpmTMZEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice2.uml#_WDN40TMZEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="_YaJT8DMZEeykDvM6y6Aaxw" position="70.0,70.0"/>
+    <stereotypes xmi:id="_YaFpkTMZEeykDvM6y6Aaxw" name="Reference">
+      <modelElement href="Stock-Price-Provider-Microservice2.uml#_WDOf4DMZEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YaFpkjMZEeykDvM6y6Aaxw" text=""/>
+    <sourceRole xmi:id="_YaFpkzMZEeykDvM6y6Aaxw" aggregationKind="NONE" name="">
+      <modelElement href="Stock-Price-Provider-Microservice2.uml#_WDN40jMZEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="_YaFplDMZEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="_YaFplTMZEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YaFpljMZEeykDvM6y6Aaxw" aggregationKind="NONE" name="scripInfoService" navigable="true">
+      <modelElement href="Stock-Price-Provider-Microservice2.uml#_WDAdcDMZEeykDvM6y6Aaxw"/>
+      <visibility xmi:id="_YaFplzMZEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="_YaFpmDMZEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YaFpmTMZEeykDvM6y6Aaxw" name="ScripInfoResource" associationsOut="_YaFpkDMZEeykDvM6y6Aaxw">
+    <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_TCIDMZEeykDvM6y6Aaxw"/>
+    <visualProperties xmi:id="_YaFpmjMZEeykDvM6y6Aaxw" position="50.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_YaFpmzMZEeykDvM6y6Aaxw" name="LegacyStyledElement">
+      <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_TpMDMZEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_YaFpnDMZEeykDvM6y6Aaxw" name="Annotations">
+      <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_VeYDMZEeykDvM6y6Aaxw"/>
+    </stereotypes>
+    <visibility xmi:id="_YaFpnTMZEeykDvM6y6Aaxw" label="+"/>
+    <attributes xmi:id="_YaFpnjMZEeykDvM6y6Aaxw" name="scripInfoService">
+      <modelElement href="Stock-Price-Provider-Microservice2.uml#_WDAdcDMZEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="_YaFpnzMZEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice2.uml#_WDAdcTMZEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="_YaFpoDMZEeykDvM6y6Aaxw" label="-"/>
+      <cardinality xmi:id="_YaFpoTMZEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <type xmi:id="_YaFpojMZEeykDvM6y6Aaxw" name="IScripInfoService">
+        <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_blADMZEeykDvM6y6Aaxw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YaFpozMZEeykDvM6y6Aaxw" name="getScripPrice">
+      <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_UQQDMZEeykDvM6y6Aaxw"/>
+      <stereotypes xmi:id="_YaFppDMZEeykDvM6y6Aaxw" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_U3UzMZEeykDvM6y6Aaxw"/>
+      </stereotypes>
+      <visibility xmi:id="_YaFppTMZEeykDvM6y6Aaxw" label="+"/>
+      <cardinality xmi:id="_YaFppjMZEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YaFppzMZEeykDvM6y6Aaxw">
+        <modelElement href="Stock-Price-Provider-Microservice2.uml#_WCoC8TMZEeykDvM6y6Aaxw"/>
+        <type xmi:id="_YaFpqDMZEeykDvM6y6Aaxw" name="Scrip">
+          <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_WsgDMZEeykDvM6y6Aaxw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YaFpqTMZEeykDvM6y6Aaxw" name="scripId">
+        <modelElement href="Stock-Price-Provider-Microservice2.uml#_V_UQQTMZEeykDvM6y6Aaxw"/>
+        <cardinality xmi:id="_YaFpqjMZEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
+        <type xmi:id="_YaFpqzMZEeykDvM6y6Aaxw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

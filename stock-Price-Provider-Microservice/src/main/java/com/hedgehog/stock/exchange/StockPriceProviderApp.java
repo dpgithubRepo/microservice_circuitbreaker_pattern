@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * The Class StockPriceProviderApp.
+ * 
  * @author Durga Prasad
  *
  */

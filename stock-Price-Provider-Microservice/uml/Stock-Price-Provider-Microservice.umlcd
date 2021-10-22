@@ -47,6 +47,9 @@
     <targetRole xmi:id="__8FCljMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="scripInfoService" navigable="true">
       <modelElement href="Stock-Price-Provider-Microservice.uml#__Xr8EDMYEeykDvM6y6Aaxw"/>
       <visualProperties xmi:id="_AO5Q4DMZEeykDvM6y6Aaxw" position="645.2260772808222,79.42723293583975"/>
+      <stereotypes xmi:id="_mI2CUDNKEeyMzdJJ-lB2Ug" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__XsjIDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
       <visibility xmi:id="__8FClzMYEeykDvM6y6Aaxw" label="-"/>
       <cardinality xmi:id="__8FCmDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
     </targetRole>
@@ -70,6 +73,9 @@
     <targetRole xmi:id="__8xmITMYEeykDvM6y6Aaxw" aggregationKind="NONE" name="scripInfoRepository" navigable="true">
       <modelElement href="Stock-Price-Provider-Microservice.uml#__X4wYDMYEeykDvM6y6Aaxw"/>
       <visualProperties xmi:id="_AO6fADMZEeykDvM6y6Aaxw" position="54.756549949644295,256.1101287631561"/>
+      <stereotypes xmi:id="_mI3QcDNKEeyMzdJJ-lB2Ug" name="Annotations">
+        <modelElement href="Stock-Price-Provider-Microservice.uml#__X6lkDMYEeykDvM6y6Aaxw"/>
+      </stereotypes>
       <visibility xmi:id="__80CYzMYEeykDvM6y6Aaxw" label="-"/>
       <cardinality xmi:id="__80CYjMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
     </targetRole>
@@ -484,9 +490,9 @@
     <visibility xmi:id="__8FppDMYEeykDvM6y6Aaxw" label="+"/>
     <attributes xmi:id="__8FppTMYEeykDvM6y6Aaxw" name="scripInfoService">
       <modelElement href="Stock-Price-Provider-Microservice.uml#__Xr8EDMYEeykDvM6y6Aaxw"/>
-      <stereotypes xmi:id="__8FppjMYEeykDvM6y6Aaxw" name="Annotations">
-        <modelElement href="Stock-Price-Provider-Microservice.uml#__XsjIDMYEeykDvM6y6Aaxw"/>
-      </stereotypes>
+      <stereotypes xmi:id="_mJN1wDNKEeyMzdJJ-lB2Ug" name="Annotations"/>
+      <stereotypes xmi:id="_mJPD4DNKEeyMzdJJ-lB2Ug" name="Annotations"/>
+      <stereotypes xmi:id="_mJSuQDNKEeyMzdJJ-lB2Ug" name="Annotations"/>
       <visibility xmi:id="__8FppzMYEeykDvM6y6Aaxw" label="-"/>
       <cardinality xmi:id="__8FpqDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
       <type xmi:id="__8FpqTMYEeykDvM6y6Aaxw" name="IScripInfoService">
@@ -723,9 +729,9 @@
     <visibility xmi:id="__813lDMYEeykDvM6y6Aaxw" label="+"/>
     <attributes xmi:id="__813lTMYEeykDvM6y6Aaxw" name="scripInfoRepository">
       <modelElement href="Stock-Price-Provider-Microservice.uml#__X4wYDMYEeykDvM6y6Aaxw"/>
-      <stereotypes xmi:id="__813ljMYEeykDvM6y6Aaxw" name="Annotations">
-        <modelElement href="Stock-Price-Provider-Microservice.uml#__X6lkDMYEeykDvM6y6Aaxw"/>
-      </stereotypes>
+      <stereotypes xmi:id="_mJPq8DNKEeyMzdJJ-lB2Ug" name="Annotations"/>
+      <stereotypes xmi:id="_mJQ5EDNKEeyMzdJJ-lB2Ug" name="Annotations"/>
+      <stereotypes xmi:id="_mJUjcDNKEeyMzdJJ-lB2Ug" name="Annotations"/>
       <visibility xmi:id="__813lzMYEeykDvM6y6Aaxw" label="-"/>
       <cardinality xmi:id="__813mDMYEeykDvM6y6Aaxw" label="1" max="1" min="1"/>
       <type xmi:id="__813mTMYEeykDvM6y6Aaxw" name="IScripInfoRepository">

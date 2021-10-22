@@ -7,6 +7,8 @@ import lombok.Data;
 
 /**
  * Instantiates a new scrip.
+ * 
+ *  @author Durga Prasad
  */
 @Data
 public class Scrip {

@@ -10,6 +10,8 @@ import com.hedgehog.stock.exchange.scrip.Scrip;
 
 /**
  * The Class ScripInfoService.
+ * 
+ *  @author Durga Prasad
  */
 @Service
 public class ScripInfoService implements IScripInfoService {

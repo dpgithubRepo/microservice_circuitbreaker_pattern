@@ -13,6 +13,8 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * The Class ScripInfoResource.
+ * 
+ *  @author Durga Prasad
  */
 @RestController
 @Slf4j

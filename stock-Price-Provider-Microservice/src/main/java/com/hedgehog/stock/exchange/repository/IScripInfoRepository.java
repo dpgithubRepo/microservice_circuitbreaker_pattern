@@ -6,6 +6,8 @@ import com.hedgehog.stock.exchange.scrip.Scrip;
 
 /**
  * The Interface IScripInfoRepository.
+ * 
+ *  @author Durga Prasad
  */
 public interface IScripInfoRepository {
 	

@@ -4,9 +4,10 @@ import java.math.BigDecimal;
 
 import com.hedgehog.stock.exchange.scrip.Scrip;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Interface IScripInfoService.
+ * 
+ *  @author Durga Prasad
  */
 public interface IScripInfoService {
 

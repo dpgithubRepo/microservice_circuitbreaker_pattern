@@ -10,7 +10,7 @@ OPEN - there are some failed/failing(not healthy) microservices detected. In thi
 
 HALF-OPEN - this is kind of experimental state after OPEN which allows to check if the failed services are back to normal or not. In this state not all the requests are passed to the failed microservice, but configured(minimum) number of requests will be sent at configued time intervals to check if the microservice is functioning or not and further state of the circuit breaker will be decided. 
 
-# Dependecies
+# Dependencies
 
 1.Spring Web
 
